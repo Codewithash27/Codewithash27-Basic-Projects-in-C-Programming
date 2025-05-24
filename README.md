@@ -1,73 +1,90 @@
+# C Programming Projects Collection
 
-
----
-
-# Project 1: Simple Calculator
-
-**Description**: 
-Create a basic calculator that can perform addition, subtraction, multiplication, and division. This program will take user input for two numbers and an operator and return the result.
-
-**Use Cases**:
-- Use it to quickly perform basic arithmetic calculations without the need for a physical calculator.
-- Students can use it to verify their math homework.
-- Small businesses can use it for simple financial calculations.
+This repository contains a collection of simple and educational C programming projects designed to enhance understanding of fundamental concepts in C. Each file is a standalone project, complete with functionality and logic that showcases core programming techniques.
 
 ---
 
-# Project 2: Number Guessing Game
+## 📂 Project List
 
-**Description**:
-Develop a number guessing game where the computer generates a random number, and the user has to guess it within a certain number of attempts.
+### 1. **Calculator.c**
+A basic calculator application that performs arithmetic operations like addition, subtraction, multiplication, and division. It takes user input and provides the result accordingly.
 
-**Use Cases**:
-- Use it to test and improve your guessing skills.
-- Teachers can use it as an educational game to teach concepts like probabilities.
-- Have fun and challenge your friends to see who can guess the number in fewer attempts.
-
----
-
-# Project 3: Contact Management System
-
-**Description**:
-Create a program to manage contacts. Users can add, view, update, and delete contacts. Use structures to represent each contact.
-
-**Use Cases**:
-- Individuals can use it to organize their personal and professional contacts.
-- Small businesses can manage their customer or client contact information.
-- Event organizers can maintain a list of attendees and their details.
+- **Features:**
+  - Handles basic operations
+  - Input validation
+  - Menu-driven interface
 
 ---
 
-# Project 4: Library Management System
+### 2. **ContactManagementSystem.c**
+A simple contact management system allowing users to store, search, edit, and delete contacts.
 
-**Description**:
-Design a basic library management system to manage books and borrowers. Use structures and file handling to store data.
-
-**Use Cases**:
-- Libraries can use it to keep track of books, borrowers, and due dates.
-- Bookstores can manage their inventory and sales records.
-- Educational institutions can track textbooks and course materials.
-
----
-
-# Project 5: Student Grade Book
-
-**Description**:
-Build a program that allows teachers to enter student grades and calculate the average, highest, and lowest scores.
-
-**Use Cases**:
-- Teachers can use it for recording student grades and calculating statistics.
-- Students can check their own grades to monitor their academic performance.
-- Educational institutions can use it for generating reports and transcripts.
+- **Features:**
+  - Add new contact
+  - View all contacts
+  - Search and delete contact
+  - File handling for data persistence
 
 ---
 
-# Project 6: Hangman Game
+### 3. **HangmanGame.c**
+A text-based implementation of the classic Hangman game.
 
-**Description**:
-Create a text-based Hangman game where players guess a word letter by letter within a limited number of attempts. The word is randomly chosen from a list.
+- **Features:**
+  - Random word selection
+  - User guesses with limited attempts
+  - ASCII art representation
 
-**Use Cases**:
-- Individuals can enjoy it as an entertaining word-guessing game.
-- Teachers can use it to engage students and build vocabulary.
-- Language learners can practice spelling and word recognition.
+---
+
+### 4. **LibraryManagementSystem.c**
+A library management system that allows for the management of books in a library.
+
+- **Features:**
+  - Add, delete, and search for books
+  - Issue and return books
+  - File handling to store records
+
+---
+
+### 5. **NumberGuess.c**
+A simple number guessing game where the player tries to guess a randomly generated number.
+
+- **Features:**
+  - Random number generation
+  - Score tracking
+  - User feedback on guesses
+
+---
+
+### 6. **StudentGradeBook.c**
+Manages student records and computes grades based on scores.
+
+- **Features:**
+  - Add student data
+  - Compute average and assign grades
+  - Display records
+  - File I/O support
+
+---
+
+### 7. **Todo.c**
+A command-line based To-Do list application.
+
+- **Features:**
+  - Add, mark as done, and delete tasks
+  - View current tasks
+  - File handling to save task list
+
+---
+
+### 8. **salarys_slip.c**
+Generates a salary slip based on employee details and salary components.
+
+- **Features:**
+  - Calculate gross and net salary
+  - Include allowances and deductions
+  - Formatted slip generation
+
+---
+
